@@ -7,8 +7,8 @@
 - [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 ### Let's start
 ```
-$ git clone https://github.com/chavo1/azure-databricks.git
-$ cd azure-databricks
+git clone https://github.com/chavo1/azure-databricks.git
+cd azure-databricks
 ```
 - Have your credentials in order to authenticate to Azure 
     - Rename terraform.tfvars-example to terraform.tfvars and fill the credentials<br /> 
@@ -17,11 +17,11 @@ $ cd azure-databricks
     or
     - [az login](https://learn.microsoft.com/en-us/azure/developer/terraform/authenticate-to-azure?tabs=bash#authenticate-to-azure-via-a-microsoft-account)
 ```
-$ terraform init
-$ terraform plan
-$ terraform apply
+terraform init
+terraform plan
+terraform apply
 ```
 - Do not forget to destroy the environment 
 ```
-$ terraform destroy
+terraform destroy
 ```
