@@ -1,5 +1,7 @@
 # This repo contains Azure-Databricks deployment playground
 
+### Used [docs](https://registry.terraform.io/providers/databricks/databricks/latest/docs/guides/workspace-management)
+
 ## Prerequisite 
 - [Azure knowledge](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/)
 - [Databricks knowledge](https://www.databricks.com/)
